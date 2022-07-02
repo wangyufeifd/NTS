@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package org.nts.protobuf;
+
+option java_package = "org.nts.protobuf";
+option java_outer_classname = "OrderData";
+option java_multiple_files = true;
+option objc_class_prefix = "GPB";
+
+
+message Order {
+  uint64 OrderId = 1;
+
+  string instrumentId = 2;
+
+  double qty = 3;
+
+  double limit_price = 4;
+
+  double market_price = 5;
+}

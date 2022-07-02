@@ -1,6 +1,4 @@
 rootProject.name = 'NTS'
-include 'protobuf'
-include 'jersey'
-include 'guice'
-include 'vertx'
+include 'common'
+include 'server'
 

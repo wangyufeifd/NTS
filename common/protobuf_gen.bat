@@ -1,0 +1,1 @@
+.\protoc-21.2-win64\bin\protoc.exe --java_out=.\src\main\java\ .\nts_protobuf\OrderData.proto
